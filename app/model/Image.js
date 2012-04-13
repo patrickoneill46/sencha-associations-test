@@ -8,7 +8,8 @@ Ext.define('MyApp.model.Image', {
         },
         fields: [
             {name: 'id',      type: 'int'},
-            {name: 'caption', type: 'string'}
+            {name: 'caption', type: 'string'},
+            {name: 'venue_id', type: 'int'}
         ]
     }
 });
